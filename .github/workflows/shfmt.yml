@@ -13,4 +13,4 @@ jobs:
         run: sudo snap install shfmt
 
       - name: Check files
-        run: shfmt -d .
+        run: shfmt -d docker-ondemand

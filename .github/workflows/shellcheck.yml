@@ -13,4 +13,4 @@ jobs:
         run: sudo apt-get install shellcheck
 
       - name: Check files
-        run: shellcheck *.sh
+        run: shellcheck docker-ondemand
